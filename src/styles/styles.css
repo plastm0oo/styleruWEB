@@ -1,0 +1,157 @@
+
+@font-face {
+  font-family: "gtWalsheimPro";
+  src: url("../assets/fonts/GTWalsheimPro-Regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "gtWalsheimPro", sans-serif;
+  font-feature-settings: "ss01";
+  scroll-behavior: smooth;
+  color: #100a00;
+}
+
+
+
+.body {
+  padding: 20px 60px;
+  background-color: #fff7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+
+.header {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__text {
+  position: sticky;
+  padding-top: 160px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.header__text-title {
+  font-size: 120px;
+}
+.header__text-subtitle {
+  font-size: 40px;
+}
+
+.header__img-card {
+  width: 800px;
+}
+
+
+
+.main {
+  display: flex;
+  padding: 30px;
+  border-radius: 16px;
+  height: 500px;
+}
+
+.main__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  gap: 12px;
+}
+.main__container_text {
+  font-size: 32px;
+}
+.main__container_text > li {
+  margin: 20px 0;
+}
+
+.main__container_link{
+  background-color: #fe8b05;
+  color: #fff;
+  padding: 1px 6px;
+  text-decoration: none;
+  /* transition: all 0.2s ease-out;   */
+}
+.main__container_link:hover {
+  background-color: transparent;
+  color: #fe8b05;
+}
+.modal-button {
+  background-color: #fe8b05;
+  color: #100a00;
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease-out;
+  margin-top: 20px;
+}
+
+.main__info-text {
+  font-size: 32px;
+  padding: 16px;
+}
+.main__container_title {
+  font-size: 64px;
+}
+.main__info_container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffe2bd;
+  padding: 16px;
+}
+.main__info_container-text{
+  font-size: 32px;
+}
+.modal-button:hover {
+  opacity: 80%;
+}
+.main__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap:24px;
+}
+
+
+
+
+/* тут чето будет... */
+
+
+
+
+.footer {
+  background-color: #f3eadf;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 10px;
+}
+.footer__text {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer__text:hover {
+  opacity: 70%;
+}
