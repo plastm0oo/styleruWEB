@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Моё портфолио!</title>
     <link rel="icon" type="image/x-icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles/styles.css">
   </head>
   <body class="body">
 
@@ -64,7 +65,19 @@
       </div>
     </main>
 
-    <!-- тут чето будет... -->
+    <div class="modal">
+      <form class="modal__form">
+        <div class="modal__form-header">
+          <h2 class="modal__form-title">Связаться со мной</h2>
+          <span class="close-button" onclick="toggleModal()">&times;</span>
+        </div>
+        <div class="modal__form-wrapper">
+          <input class="modal__form-input" type="text" placeholder="Имя">
+          <input class="modal__form-input" type="email" placeholder="E-mail">
+        </div>
+        <button class="modal__form-submit" onclick="toggleModal()" type="submit">Отправить</button>
+      </form>
+    </div>
 
     <footer class="footer">
       <a href="https://t.me/styleruorg" class="footer__text"
@@ -73,4 +86,5 @@
     </footer>
 
   </body>
+  <script src="../scripts/script.js"></script>
 </html>
